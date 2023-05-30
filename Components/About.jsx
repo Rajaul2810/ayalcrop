@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import about from '../public/about.jpg'
 
 const About = () => {
     return (
@@ -13,7 +14,7 @@ const About = () => {
 
                     </div>
                     <div className=' flex justify-center'>
-                            <Image className=' rounded-lg place-self-center ' src="/../public/about.jpg" alt="h" height={500} width={450} />
+                            <Image className=' rounded-lg place-self-center ' src={about} alt="h" height={500} width={450} />
                     </div>
                     
 
